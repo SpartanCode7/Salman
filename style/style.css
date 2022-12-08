@@ -30,10 +30,10 @@ a {
 p {
     font-size: 16px;
 }
-.container {
+/* .container {
     max-width: 1170px;
     margin: 0 auto;
-}
+} */
 img {
     width: 100%;
 }
@@ -232,4 +232,42 @@ img {
 .services__inner .box:hover {
     background: linear-gradient(to right, #F28B20, #EC5325);
     cursor: pointer;
+}
+
+/* Strategy */
+
+.strategy__inner {
+    display: flex;
+    align-items: center;
+}
+.strategy__inner .box {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.strategy__inner .icon__box {
+    display: flex;
+    box-shadow: 0px 0px 20px #00000029;
+    border-radius: 6px;
+    padding: 20px 30px;
+    justify-content: space-between;
+}
+.strategy__inner .box__1 .icon__box:nth-child(2) {
+    margin-left: -30px;
+}
+.strategy__inner .box__3 .icon__box:nth-child(2) {
+    margin-right: -30px !important;
+}
+.strategy__inner .icon__box .icon {
+    width: 17%;
+}
+.strategy__inner .icon__box .content {
+    width: 80%;
+}
+.strategy__inner .icon__box .icon img {
+    max-width: 55px;
+}
+
+.strategy__inner .box { 
+    width: 33%;
 }
